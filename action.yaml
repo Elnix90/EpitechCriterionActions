@@ -13,7 +13,7 @@ runs:
       sudo apt-get update || true
       sudo add-apt-repository -y -s ppa:epitech/ppa || true
       sudo add-apt-repository -y -s universe || true
-      sudo apt-get install -y make gcovr python3-pil epiclang
+      sudo apt-get install -y make gcovr python3-pil llvm epiclang
   - name: Git configuration
     shell: bash
     run: |-
