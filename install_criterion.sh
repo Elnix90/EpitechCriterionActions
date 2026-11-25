@@ -14,18 +14,18 @@ cd /tmp
 rm -f $TARBALL
 rm -fr $DIR
 
-wget $URL/$TARBALL
+curl -fsSLO "$URL/$TARBALL"
 if [ $? != 0 ]; then
-    echo "failled, exiting"
-    exit;
+    echo "failed, exiting"
+    exit 84
 fi
 
 echo
 echo "untaring $TARBALL"
 tar xjf $TARBALL
 if [ $? != 0 ]; then
-    echo "failled, exiting"
-    exit;
+    echo "failed, exiting"
+    exit 84 # ;)
 fi
 
 echo "creating custom ld.conf"
