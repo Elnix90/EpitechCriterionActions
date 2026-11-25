@@ -11,8 +11,7 @@ runs:
     run: |-
       sudo ${{ github.action_path }}/install_criterion.sh
       sudo apt-get update
-      sudo apt-get install -y gcovr
-      sudo pip install Pillow
+      sudo apt-get install -y gcovr python3-pil
   - name: Git configuration
     shell: bash
     run: |-
@@ -41,7 +40,7 @@ runs:
       cat eca_lb >> gcovr_results.txt
   - name: Generate bars images
     shell: bash
-    run: python ${{ github.action_path }}/bars_creator.py
+    run: /usr/bin/python3 ${{ github.action_path }}/bars_creator.py
   - name: Update readme
     shell: bash
     run: |-
