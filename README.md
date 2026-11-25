@@ -13,7 +13,7 @@
 
 ## 🔍 Description
 
-Epitech Criterion Actions is a GitHub action that will automatically launch the unit tests create with [Criterion](https://criterion.readthedocs.io/en/master/index.html) in the same way as the Epitech autocorrector. One the action is incorporated into the project, it will start when chages are sent to the main branch of the project. The results are formatted and sent to a special branch named "epitech-criterion-action" ( [see branch on example project](https://github.com/MaximePremont/EpitechCriterionActions_Example/tree/epitech-criterion-actions) )
+Epitech Criterion Actions is a GitHub action that will automatically launch the unit tests create with [Criterion](https://criterion.readthedocs.io/en/master/index.html) in the same way as the Epitech autocorrector. One the action is incorporated into the project, it will start when changes are sent to the main branch of the project. The results are formatted and sent to a special branch named "epitech-criterion-action" ( [see branch on example project](https://github.com/MaximePremont/EpitechCriterionActions_Example/tree/epitech-criterion-actions) )
 
 ## 💻 Example
 
