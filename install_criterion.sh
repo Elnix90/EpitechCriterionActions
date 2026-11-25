@@ -22,7 +22,7 @@ fi
 
 echo
 echo "untaring $TARBALL"
-tar xjf $TARBALL
+python3 -m tarfile -e "$TARBALL"
 if [ $? != 0 ]; then
     echo "failed, exiting"
     exit 84 # ;)
