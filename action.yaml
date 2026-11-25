@@ -34,8 +34,8 @@ runs:
       sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2})?)?[mGK]//g" eca_syn &> eca_sync
       cat eca_tap >> last_logs.txt
       cat eca_sync >> last_logs.txt
-      gcovr --exclude tests/ > eca_lc
-      gcovr --exclude tests/ -b > eca_lb
+      gcovr --gcov-executable "llvm-cov gcov" --exclude tests/ > eca_lc
+      gcovr --gcov-executable "llvm-cov gcov" --exclude tests/ --txt-metric branch > eca_lb
       cat eca_lc >> gcovr_results.txt
       cat eca_lb >> gcovr_results.txt
   - name: Generate bars images
