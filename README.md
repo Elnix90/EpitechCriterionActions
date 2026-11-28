@@ -2,14 +2,6 @@
 
 <p align="center">Simple GitHub action for Criterion unit tests at Epitech</p>
 
-<p align="center">
-<a href="./LICENCE"><img alt="License" src="https://img.shields.io/badge/License-GPLv3-blue.svg" /><a>
-<a href="https://github.com/Elnix90/EpitechCriterionActions/issues"><img alt="issues" src="https://badgen.net/github/issues/Elnix90/EpitechCriterionActions" /></a>
-<a href="https://github.com/Elnix90/EpitechCriterionActions"><img alt="PRs" src="https://badgen.net/github/prs/Elnix90/EpitechCriterionActions" /></a>
-<a href="https://github.com/Elnix90/EpitechCriterionActions"><img alt="Open Source" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" /></a>
-<a href="https://github.com/Elnix90/EpitechCriterionActions/network/members"><img alt="forks" src="https://badgen.net/github/forks/Elnix90/EpitechCriterionActions" /></a>
-<a href="https://github.com/Elnix90/EpitechCriterionActions"><img alt="stars" src="https://badgen.net/github/stars/Elnix90/EpitechCriterionActions" /></a>
-</p>
 
 ## 🔍 Description
 
@@ -43,8 +35,6 @@ tests_run: unit_tests
 
 - The test executable must be called "unit_tests"
 - The test executable must not be deleted when calling "tests_run" in the makefile
-
-> Do not hesitate to take a look at [the sample project](https://github.com/MaximePremont/EpitechCriterionActions_Example) to see how to correctly build your project and Makefile.
 
 ##
 
